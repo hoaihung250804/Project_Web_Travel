@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "outDir": "javascript",
+        "removeComments": false,
+        "target": "ES6"
+    }
+}

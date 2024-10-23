@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Khám phá các tour du lịch hấp dẫn nhất tại Việt Nam."
+    />
+    <title>Index</title>
+    <link rel="stylesheet" href="/travel_VN/css/header.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="top-bar">
+        <div class="contact-info">
+          <span>📧 vohoaihung2@gmail.com</span>
+          <span>📞 Hotline: 000 999</span>
+        </div>
+        <div class="language">
+          <button>English</button>
+          <button>Đăng nhập</button>
+          <button>Chọn điểm khởi hành</button>
+        </div>
+      </div>
+      <div class="main-header">
+        <div class="logo">
+          <img src="/travel_VN/images/logo.png" alt="Logo" />
+        </div>
+        <nav class="nav-menu">
+          <a href="/travel_VN/html/index.html">Trang chủ</a>
+          <a href="#">Tour miền Bắc</a>
+          <a href="#">Tour miền Trung</a>
+          <a href="#">Tour miền Nam</a>
+          <a href="#">Liên hệ</a>
+        </nav>
+        <div class="search-bar">
+          <input type="text" placeholder="Tìm kiếm..." />
+          <button>🔍</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="slides">
+        <div class="slide active">
+          <img
+            src="https://img2.thuthuat123.com/uploads/2020/03/17/anh-vinh-ha-long-dep-nhat_115608633.jpg"
+            alt="Slide 1"
+          />
+          <div class="hero-text">
+            <h1>DU LỊCH PHILIPPINES</h1>
+            <h2>NÚI LỬA TAAL - VILLA ESCUDERO</h2>
+            <p>Khởi hành 25/10/2024</p>
+            <button class="cta-button">Xem Thêm</button>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="https://res.klook.com/image/upload/q_85/c_fill,w_1360/v1676361594/blog/gn8sy60kkwhgn7ynim42.webp"
+            alt="Slide 2"
+          />
+          <div class="hero-text">
+            <h1>DU LỊCH VIỆT NAM</h1>
+            <h2>VỊNH HẠ LONG - DI SẢN THẾ GIỚI</h2>
+            <p>Khởi hành 10/11/2024</p>
+            <button class="cta-button">Xem Thêm</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="filter-section">
+        <h2>Lọc</h2>
+        <div class="filter-group">
+          <label for="location">Địa điểm:</label>
+          <select id="location">
+            <option>Tất cả</option>
+            <!-- Các tùy chọn khác -->
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="start-date">Từ ngày:</label>
+          <input type="date" id="start-date" />
+        </div>
+        <div class="filter-group">
+          <label for="end-date">Đến ngày:</label>
+          <input type="date" id="end-date" />
+        </div>
+        <button class="filter-btn">Lọc</button>
+      </div>
+
+      <div class="content-section"></div>
+    </div>
+    <nav aria-label="Page navigation">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled" id="prev-page">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <!-- Các trang sẽ được thêm động ở đây -->
+        <li class="page-item" id="next-page">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script src="/travel_VN/javascript/slide.js"></script>
+    <script src="/travel_VN/javascript/app.js"></script>
+  </body>
+</html>
