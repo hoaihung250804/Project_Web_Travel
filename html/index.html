@@ -21,7 +21,6 @@
         <div class="language">
           <button>English</button>
           <button>Đăng nhập</button>
-          <button>Chọn điểm khởi hành</button>
         </div>
       </div>
       <div class="main-header">
@@ -73,13 +72,14 @@
 
     <div class="container">
       <div class="filter-section">
-        <h2>Lọc</h2>
+        <h2>Tìm kiếm</h2>
         <div class="filter-group">
-          <label for="location">Địa điểm:</label>
-          <select id="location">
-            <option>Tất cả</option>
-            <!-- Các tùy chọn khác -->
-          </select>
+          <label for="keyword">Từ khóa:</label>
+          <input
+            type="text"
+            id="keyword"
+            placeholder="Nhập từ khóa tìm kiếm..."
+          />
         </div>
         <div class="filter-group">
           <label for="start-date">Từ ngày:</label>
@@ -89,7 +89,7 @@
           <label for="end-date">Đến ngày:</label>
           <input type="date" id="end-date" />
         </div>
-        <button class="filter-btn">Lọc</button>
+        <button class="filter-btn" id="search-btn">Tìm kiếm</button>
       </div>
 
       <div class="content-section"></div>

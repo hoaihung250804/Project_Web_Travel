@@ -13,7 +13,8 @@
     "duration": "2 ngày 1 đêm",
     "short_description": " Cần Thơ, thủ phủ miền Tây, là điểm đến lý tưởng cho những ai muốn khám phá văn hóa sông nước đặc trưng. Với bến Ninh Kiều lung linh về đêm, du khách có thể dạo bước trên những con đường dọc bờ sông lộng gió, thưởng thức ẩm thực địa phương độc đáo. Chợ nổi Cái Răng đem lại trải nghiệm độc đáo về cuộc sống giao thương trên sông, nơi bạn có thể tận hưởng không khí nhộn nhịp và mua sắm ngay trên thuyền. Các vườn cây ăn trái rợp bóng mát cũng là điểm nhấn để thư giãn và thưởng thức trái cây tươi ngon.",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2024-10-30 06:00:00"
+    "gathering_time": "2024-10-30 06:00:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     "duration": "3 ngày 2 đêm",
     "short_description": "An Giang là điểm đến linh thiêng và giàu truyền thống văn hóa của miền Tây Nam Bộ. Núi Sam hùng vĩ, với Miếu Bà Chúa Xứ nổi tiếng, thu hút hàng ngàn du khách đến cúng viếng mỗi năm. Hành trình khám phá An Giang còn đưa du khách tới những làng Chăm yên bình, nơi lưu giữ nét đẹp văn hóa đặc sắc của cộng đồng người Chăm, cùng những công trình kiến trúc Hồi giáo độc đáo. Chuyến đi mang lại cảm giác thanh bình, đưa du khách rời xa thành phố ồn ào và khám phá vùng đất đậm chất tâm linh. ",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2024-11-05 05:30:00"
+    "gathering_time": "2024-11-05 05:30:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     "duration": "2 ngày 1 đêm",
     "short_description": "Đồng Tháp nổi tiếng với làng hoa Sa Đéc, nơi hội tụ hàng trăm loài hoa đa dạng, tạo nên bức tranh rực rỡ sắc màu. Những con đường hoa nở rộ quanh năm là điểm đến lý tưởng cho những người yêu thiên nhiên và đam mê chụp ảnh. Ngoài ra, bạn sẽ được tham quan Vườn Quốc gia Tràm Chim, nơi bảo tồn nhiều loài chim quý hiếm và hệ sinh thái rừng ngập nước phong phú. Hành trình còn mang lại cơ hội trải nghiệm cuộc sống yên bình, thưởng thức ẩm thực địa phương và tận hưởng không khí trong lành tại vùng quê trù phú",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2024-11-10 06:00:00"
+    "gathering_time": "2024-11-10 06:00:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     "duration": "2 ngày 1 đêm",
     "short_description": "Bạc Liêu không chỉ nổi tiếng với giai thoại về Công Tử Bạc Liêu giàu có mà còn thu hút du khách bởi những danh lam thắng cảnh mang đậm nét văn hóa người Khmer và Việt. Bạn sẽ được tham quan nhà Công Tử Bạc Liêu lộng lẫy, nơi từng là biểu tượng của sự xa hoa. Hành trình còn đưa bạn đến cánh đồng quạt gió rộng lớn, một biểu tượng mới của sự phát triển và năng lượng xanh. Cuối cùng, bạn sẽ khám phá các ngôi chùa và làng văn hóa người Khmer, nơi lưu giữ những nét văn hóa độc đáo của vùng đất miền Tây.",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2024-11-15 06:30:00"
+    "gathering_time": "2024-11-15 06:30:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     "duration": "3 ngày 2 đêm",
     "short_description": "Hành trình về miền cực Nam của Việt Nam đưa bạn khám phá Mũi Cà Mau, nơi đất liền chạm biển. Đây là điểm đến không thể bỏ qua đối với những ai yêu thích thiên nhiên hoang sơ và muốn khám phá rừng ngập mặn lớn nhất Việt Nam. Du khách sẽ có cơ hội đặt chân lên mốc tọa độ cuối cùng của Tổ Quốc, thưởng ngoạn phong cảnh kỳ vĩ và tham gia vào các hoạt động du lịch sinh thái. Những ngôi làng chài ven biển và cảnh sắc thiên nhiên tuyệt đẹp khiến Cà Mau trở thành một điểm đến vừa mang tính lịch sử, vừa mang tính trải nghiệm thiên nhiên.",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2024-11-20 07:00:00"
+    "gathering_time": "2024-11-20 07:00:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     "duration": "1 ngày",
     "short_description": "Tiền Giang nổi bật với những cồn đất bồi phì nhiêu, trong đó Cồn Thới Sơn là một trong những điểm du lịch nổi tiếng nhất. Tại đây, du khách sẽ có cơ hội trải nghiệm cuộc sống miệt vườn với những khu vườn trái cây trĩu quả, thưởng thức các loại trái cây tươi ngon ngay tại vườn. Bên cạnh đó, bạn sẽ được ngồi thuyền dọc theo các con rạch nhỏ, len lỏi qua những hàng dừa xanh mướt, tận hưởng không khí trong lành của vùng sông nước. Chuyến đi cũng giúp du khách hiểu thêm về văn hóa địa phương, với các hoạt động dân dã như nghe đờn ca tài tử và tham gia các hoạt động truyền thống.",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2024-11-25 06:00:00"
+    "gathering_time": "2024-11-25 06:00:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     "duration": "2 ngày 1 đêm",
     "short_description": "Vĩnh Long là điểm đến lý tưởng cho những ai yêu thích không khí thanh bình của miền quê Nam Bộ. Cù Lao An Bình, với vẻ đẹp hoang sơ và yên tĩnh, mang lại cảm giác thư thái cho du khách. Hành trình sẽ đưa bạn khám phá những ngôi nhà cổ được xây dựng từ thời Pháp thuộc, cùng với các hoạt động dân dã như thưởng thức đờn ca tài tử - một nét văn hóa phi vật thể đặc trưng của miền Tây. Du khách còn có cơ hội trải nghiệm cuộc sống miệt vườn với những vườn cây trái ngọt ngào và các món ăn địa phương độc đáo",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2024-12-01 05:30:00"
+    "gathering_time": "2024-12-01 05:30:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     "duration": "2 ngày 1 đêm",
     "short_description": "Trà Vinh là điểm đến mang đậm dấu ấn văn hóa Khmer, nơi du khách có thể khám phá những ngôi chùa cổ kính và các di tích lịch sử độc đáo. Ao Bà Om là một thắng cảnh nổi tiếng với khung cảnh thơ mộng và hồ nước trong xanh được bao bọc bởi hàng cây cổ thụ. Chùa Âng, một trong những ngôi chùa Khmer lâu đời nhất tại Việt Nam, thu hút du khách bởi kiến trúc độc đáo và không gian linh thiêng. Hành trình đến Trà Vinh không chỉ là cuộc hành trình khám phá thiên nhiên, mà còn là cơ hội để tìm hiểu về văn hóa và tâm linh của người Khmer.",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2024-12-05 06:00:00"
+    "gathering_time": "2024-12-05 06:00:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     "duration": "1 ngày",
     "short_description": "Sóc Trăng nổi tiếng với Chùa Dơi và các lễ hội văn hóa đặc sắc.",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2024-12-10 06:30:00"
+    "gathering_time": "2024-12-10 06:30:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 10,
@@ -157,7 +166,8 @@
     "duration": "4 ngày 3 đêm",
     "short_description": "Phú Quốc là thiên đường nghỉ dưỡng với biển xanh, cát trắng và nắng vàng.",
     "gathering_location": "Sài Gòn - Sân bay Tân Sơn Nhất",
-    "gathering_time": "2024-12-15 07:00:00"
+    "gathering_time": "2024-12-15 07:00:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 11,
@@ -173,7 +183,8 @@
     "duration": "1 ngày",
     "short_description": "Làng nổi Tân Lập là điểm du lịch sinh thái nổi tiếng tại Long An.",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2024-12-20 06:00:00"
+    "gathering_time": "2024-12-20 06:00:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 12,
@@ -189,7 +200,8 @@
     "duration": "1 ngày",
     "short_description": "Bến Tre là xứ sở của dừa với những cồn nổi tiếng như Cồn Phụng.",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2024-12-25 06:00:00"
+    "gathering_time": "2024-12-25 06:00:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 13,
@@ -205,7 +217,8 @@
     "duration": "1 ngày",
     "short_description": "Cần Giờ là khu sinh thái rừng ngập mặn đặc biệt, cách Sài Gòn không xa.",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2024-12-30 07:00:00"
+    "gathering_time": "2024-12-30 07:00:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 14,
@@ -221,7 +234,8 @@
     "duration": "1 ngày",
     "short_description": "Hậu Giang nổi tiếng với chợ nổi Ngã Bảy, nơi hội tụ đặc trưng văn hóa sông nước miền Tây.",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2025-01-05 06:00:00"
+    "gathering_time": "2025-01-05 06:00:00",
+    "Region":"Miền Nam"
   },
   {
     "id": 15,
@@ -237,8 +251,7 @@
     "duration": "2 ngày 1 đêm",
     "short_description": "Long Xuyên là nơi có làng Chăm nổi tiếng với văn hóa Hồi giáo đặc trưng.",
     "gathering_location": "Sài Gòn - Bến xe chợ lớn",
-    "gathering_time": "2025-01-10 05:30:00"
+    "gathering_time": "2025-01-10 05:30:00",
+    "Region":"Miền Nam"
   }
-
-
 ]

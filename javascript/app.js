@@ -7,18 +7,21 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var _a;
 const ITEMS_PER_PAGE = 5;
 let currentPage = 1;
 let totalPages = 1;
-// Hàm fetch dữ liệu từ file JSON
+// Khai báo biến toàn cục cho danh sách tour
+let allTours = [];
+// Hàm fetch dữ liệu từ file JSON và lưu danh sách vào allTours
 function fetchTours() {
     return __awaiter(this, void 0, void 0, function* () {
         const response = yield fetch("../javascript/data.json");
         if (!response.ok) {
             throw new Error("Failed to fetch tours");
         }
-        const tours = yield response.json();
-        return tours;
+        allTours = yield response.json(); // Lưu tất cả các tour
+        return allTours;
     });
 }
 // Hàm hiển thị danh sách các tour
@@ -83,17 +86,43 @@ function attachPaginationEvents() {
             const page = parseInt(e.target.getAttribute("data-page") || currentPage.toString());
             if (!isNaN(page) && page !== currentPage) {
                 currentPage = page;
-                initializeTours();
+                renderTours(allTours, currentPage);
             }
         });
     });
 }
+// Hàm tìm kiếm tour theo từ khóa và khoảng thời gian
+function searchTours(keyword, startDate, endDate) {
+    return allTours.filter((tour) => {
+        const matchesKeyword = tour.name.toLowerCase().includes(keyword.toLowerCase()) ||
+            tour.description.toLowerCase().includes(keyword.toLowerCase()) ||
+            tour.short_description.toLowerCase().includes(keyword.toLowerCase());
+        const tourDate = new Date(tour.start_date);
+        const isInDateRange = (!startDate || tourDate >= new Date(startDate)) &&
+            (!endDate || tourDate <= new Date(endDate));
+        return matchesKeyword && isInDateRange;
+    });
+}
+// Hàm xử lý sự kiện tìm kiếm
+function handleSearch() {
+    const keywordInput = document.querySelector("#keyword");
+    const startDateInput = document.querySelector("#start-date");
+    const endDateInput = document.querySelector("#end-date");
+    const keyword = keywordInput.value.trim();
+    const startDate = startDateInput.value;
+    const endDate = endDateInput.value;
+    // Lọc và hiển thị danh sách tour dựa trên từ khóa và thời gian
+    const filteredTours = searchTours(keyword, startDate, endDate);
+    renderTours(filteredTours, 1); // Hiển thị kết quả từ trang 1
+}
+// Gắn sự kiện click cho nút tìm kiếm
+(_a = document.querySelector("#search-btn")) === null || _a === void 0 ? void 0 : _a.addEventListener("click", handleSearch);
 // Hàm khởi tạo và gọi render tours
 function initializeTours() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            const tours = yield fetchTours();
-            renderTours(tours, currentPage);
+            yield fetchTours();
+            renderTours(allTours, currentPage);
         }
         catch (error) {
             console.error("Error fetching tours:", error);
